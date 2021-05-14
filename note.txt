@@ -1,0 +1,24 @@
+sebelumnya gunakan npm install
+untuk menginstall yang terdapat pada package json
+
+jika di awal kosongan, gunakan 
+npm init
+untuk memulai package json
+
+script start
+hanya menggunakan
+npm start
+
+script server
+menggunakan 
+npm run server
+
+script build
+menggunakan
+npm run build
+
+dependency ada 2 macam
+yakni yang untuk produksi
+sama yang cuma terpakai di development
+npm i <package> --save
+npm i <package> --save-dev

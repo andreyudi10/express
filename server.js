@@ -21,6 +21,14 @@ app.get('/api/lainnya', cors(), (req,res) => {
     res.json(dataApi)
 })
 
+app.get('/menggunakan-dash', cors(), (req, res) => {
+    const dataApi = [
+        "ini api menggunakan dash"
+    ]
+
+    res.json(dataApi)
+})
+
 const port = 5000;
 app.listen( port, () => {
     console.log(`runnin in ${port}`)
